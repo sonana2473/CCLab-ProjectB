@@ -8,9 +8,9 @@ let imgUranus;
 let imgNeptune;
 let imgFinal;
 let earthAngle = 0;
-let numberOfImages = 3;
-let cA1, cA2, cA3;
-let c1, c2, c3;
+let numberOfImages = 8;
+let cA1, cA2, cA3, cA4, cA5;
+let c1, c2, c3, c4, c5;
 let myFont;
 let sel;
 
@@ -479,5 +479,12 @@ function draw() {
     rect(width / 2 - 60, 240, 50, 50);
     fill(200);
     text(c5, width / 2 - 120, 270);
+  }
+  function mouseClicked() {
+  if(planet_index < 4) {
+    planet_index +=1
+  }else{
+    planet_index=1
+  }
   }
 }
