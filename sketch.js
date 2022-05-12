@@ -1,11 +1,11 @@
 let imgMars;
 let imgSaturn;
 let imgEarth;
-let imgVenus;
-let imgMercury;
-let imgJupiter;
-let imgUranus;
-let imgNeptune;
+// let imgVenus;
+// let imgMercury;
+// let imgJupiter;
+// let imgUranus;
+// let imgNeptune;
 let imgFinal;
 let earthAngle = 0;
 let numberOfImages = 3;
@@ -24,8 +24,8 @@ function preload() {
       "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1912b050-3675-4394-a3d1-d0b4cb43ae0a/ddeq42t-e150d2ad-e6cb-46e6-9a4e-a908d9a170bb.png/v1/fill/w_1280,h_640,q_80,strp/saturn_texture_map__fictional_rework__by_magentameteorite_ddeq42t-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvMTkxMmIwNTAtMzY3NS00Mzk0LWEzZDEtZDBiNGNiNDNhZTBhXC9kZGVxNDJ0LWUxNTBkMmFkLWU2Y2ItNDZlNi05YTRlLWE5MDhkOWExNzBiYi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LGF7FBdknIVE7_swXfEFe__n-IF6D2IXNWk4fjPE8Oo"
     );
     imgEarth = loadImage(
-      "https://as2.ftcdn.net/v2/jpg/02/24/14/81/1000_F_224148194_xrGaLP6RZbCL7B3vOMYYr2dVrcg95RFt.jpg"
-    );
+      "https://as2.ftcdn.net/v2/jpg/02/24/14/81/1000_F_224148194_xrGaLP6RZbCL7B3vOMYYr2dVrcg95RFt.jpg")
+    // );
     // imgVenus = loadImage(
     //   "https://www.centraldatacore.com/wp-content/uploads/PT2-Venus-3DP-Map.jpg"
     // );
@@ -50,7 +50,7 @@ function setup() {
   noStroke();
 
   sel = createSelect();
-  sel.position(10, 10);
+  sel.position(30, 40);
   sel.option("Select a Planet");
   sel.option("Mars");
   sel.option("Saturn");
