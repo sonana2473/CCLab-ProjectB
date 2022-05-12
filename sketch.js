@@ -50,7 +50,7 @@ function setup() {
   noStroke();
 
   sel = createSelect();
-  sel.position(30, 40);
+  sel.position(10, 10);
   sel.option("Select a Planet");
   sel.option("Mars");
   sel.option("Saturn");
