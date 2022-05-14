@@ -1,7 +1,7 @@
 let imgMars;
 let imgSaturn;
 let imgEarth;
-let imgVenus;
+// let imgVenus;
 let imgMercury;
 let imgJupiter;
 let imgUranus;
@@ -26,9 +26,9 @@ function preload() {
     imgEarth = loadImage(
       "https://as2.ftcdn.net/v2/jpg/02/24/14/81/1000_F_224148194_xrGaLP6RZbCL7B3vOMYYr2dVrcg95RFt.jpg"
     );
-    imgVenus = loadImage(
-      "http://2.bp.blogspot.com/-bhTykl9S0wE/U31GZGl1riI/AAAAAAAACdc/DkN300rzfvo/s1600/radar_backscatter_venus.jpg"
-    );
+    // imgVenus = loadImage(
+    //   "https://pixelz.cc/wp-content/uploads/2018/08/venus-cloud-texture-triple-monitor-wallpaper.jpg"
+    // );
     imgMercury = loadImage(
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Solarsystemscope_texture_2k_mercury.jpg/640px-Solarsystemscope_texture_2k_mercury.jpg"
     );
@@ -55,7 +55,7 @@ function setup() {
   sel.option("Mars");
   sel.option("Saturn");
   sel.option("Earth");
-  sel.option("Venus");
+  // sel.option("Venus");
   sel.option("Mercury");
   sel.option("Jupiter");
   sel.option("Uranus");
@@ -114,22 +114,22 @@ function mySelectEvent() {
     c4 = "#D9AF32";
     c5 = "#79653C";
   }
-  if (item === "Venus") {
-    for (let i = 0; i < numberOfImages; i++) {
-      imgFinal = imgVenus;
-    }
-    cA1 = color("#F2BC57");
-    cA2 = color("#D98E32");
-    cA3 = color("#A65A17");
-    cA4 = color("#8C3E11");
-    cA5 = color("#4A2908");
+  // if (item === "Venus") {
+  //   for (let i = 0; i < numberOfImages; i++) {
+  //     imgFinal = imgVenus;
+  //   }
+  //   cA1 = color("#F2BC57");
+  //   cA2 = color("#D98E32");
+  //   cA3 = color("#A65A17");
+  //   cA4 = color("#8C3E11");
+  //   cA5 = color("#4A2908");
 
-    c1 = "#F2BC57";
-    c2 = "#D98E32";
-    c3 = "#A65A17";
-    c4 = "#8C3E11";
-    c5 = "#4A2908";
-  }
+  //   c1 = "#F2BC57";
+  //   c2 = "#D98E32";
+  //   c3 = "#A65A17";
+  //   c4 = "#8C3E11";
+  //   c5 = "#4A2908";
+  // }
   if (item === "Mercury") {
     for (let i = 0; i < numberOfImages; i++) {
       imgFinal = imgMercury;
