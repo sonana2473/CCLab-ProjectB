@@ -480,11 +480,4 @@ function draw() {
     fill(200);
     text(c5, width / 2 - 120, 270);
   }
-  function mouseClicked() {
-  if(planet_index < 4) {
-    planet_index +=1
-  }else{
-    planet_index=1
-  }
-  }
 }
